@@ -1,0 +1,7 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:[m[K In member function ‘[01m[Kvoid BranchDetection::scanCB(const LaserScanConstPtr&)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:257:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], ((ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                                 ^[m[K
+make[2]: *** [CMakeFiles/branch_detection.dir/src/branch_detection.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/branch_detection.dir/all] エラー 2
+make: *** [all] エラー 2

@@ -1,0 +1,7 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::moveToGoal(geometry_msgs::PointStamped, bool)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:96:142:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[KEigen::Quaternion<double>[m[K’ and ‘[01m[Kdouble[m[K’)
+     Eigen::Quaterniond q = Eigen::Quaterniond::FromTwoVectors(Eigen::Vector3d::UnitX(),Eigen::Vector3d(startToGoal.x(),startToGoal.y(),0.0)) + 1.57;
+[01;32m[K                                                                                                                                              ^[m[K
+make[2]: *** [CMakeFiles/movement.dir/src/movement.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/movement.dir/all] エラー 2
+make: *** [all] エラー 2

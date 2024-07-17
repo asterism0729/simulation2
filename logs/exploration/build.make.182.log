@@ -1,0 +1,15 @@
+[ 14%] Built target exploration_gencfg
+[ 20%] Built target multi_exploration_simulator_input_support
+[ 26%] Built target rrt_point_publisher
+[ 32%] Built target sbe
+[ 38%] Built target movement
+[ 44%] Built target fbe
+[ 50%] Built target movement_frontier
+[ 55%] Built target sensor_based_exploration
+[ 61%] Built target she
+[ 67%] Built target frontier_based_exploration
+[ 85%] Built target legacy_hybrid_exploration
+[ 85%] Built target seamless_hybrid_exploration_actively_frontier
+[ 85%] Built target seamless_hybrid_exploration_loop_closure
+[ 94%] Built target multi_exploration_simulator
+[100%] Built target seamless_hybrid_exploration

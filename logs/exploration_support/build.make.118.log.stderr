@@ -1,0 +1,4 @@
+make[2]: *** 'CMakeFiles/loop_closure_counter.dir/src/loop_closure_counter.cpp.o' に必要なターゲット '/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp' を make するルールがありません.  中止.
+make[1]: *** [CMakeFiles/loop_closure_counter.dir/all] エラー 2
+make[1]: *** 未完了のジョブを待っています....
+make: *** [all] エラー 2

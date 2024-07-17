@@ -1,0 +1,5 @@
+Linked: (/home/ros/catkin_ws/devel/.private/robot_action_mng/share/robot_action_mng/cmake/robot_action_mngConfig.cmake, /home/ros/catkin_ws/devel/share/robot_action_mng/cmake/robot_action_mngConfig.cmake)
+Linked: (/home/ros/catkin_ws/devel/.private/robot_action_mng/share/robot_action_mng/cmake/robot_action_mngConfig-version.cmake, /home/ros/catkin_ws/devel/share/robot_action_mng/cmake/robot_action_mngConfig-version.cmake)
+Linked: (/home/ros/catkin_ws/devel/.private/robot_action_mng/lib/pkgconfig/robot_action_mng.pc, /home/ros/catkin_ws/devel/lib/pkgconfig/robot_action_mng.pc)
+Linked: (/home/ros/catkin_ws/devel/.private/robot_action_mng/lib/robot_action_mng/robot1_action, /home/ros/catkin_ws/devel/lib/robot_action_mng/robot1_action)
+Linked: (/home/ros/catkin_ws/devel/.private/robot_action_mng/lib/robot_action_mng/robot2_action, /home/ros/catkin_ws/devel/lib/robot_action_mng/robot2_action)

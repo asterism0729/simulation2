@@ -1,0 +1,54 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~simulate_robot_index" : \b [int] simulate robot index min: 1, default: 1, max: 5
+- \b "~robot_number" : \b [int] number of robot min: 2, default: 2, max: 5
+- \b "~branch_number" : \b [int] number of branch min: 0, default: 1, max: 5
+- \b "~frontier_number" : \b [int] number of frontier min: 0, default: 1, max: 10
+- \b "~robot1_x" : \b [double] coordinate-x of robot i min: -3.7, default: 0.0, max: 43.0
+- \b "~robot1_y" : \b [double] coordinate-y of robot i min: -1.0, default: 0.0, max: 13.0
+- \b "~robot1_yaw" : \b [double] coordinate-yaw of robot i min: -180.0, default: 0.0, max: 180.0
+- \b "~robot2_x" : \b [double] coordinate-x of robot i min: -3.7, default: 0.0, max: 43.0
+- \b "~robot2_y" : \b [double] coordinate-y of robot i min: -1.0, default: 0.0, max: 13.0
+- \b "~robot2_yaw" : \b [double] coordinate-yaw of robot i min: -180.0, default: 0.0, max: 180.0
+- \b "~robot3_x" : \b [double] coordinate-x of robot i min: -3.7, default: 0.0, max: 43.0
+- \b "~robot3_y" : \b [double] coordinate-y of robot i min: -1.0, default: 0.0, max: 13.0
+- \b "~robot3_yaw" : \b [double] coordinate-yaw of robot i min: -180.0, default: 0.0, max: 180.0
+- \b "~robot4_x" : \b [double] coordinate-x of robot i min: -3.7, default: 0.0, max: 43.0
+- \b "~robot4_y" : \b [double] coordinate-y of robot i min: -1.0, default: 0.0, max: 13.0
+- \b "~robot4_yaw" : \b [double] coordinate-yaw of robot i min: -180.0, default: 0.0, max: 180.0
+- \b "~robot5_x" : \b [double] coordinate-x of robot i min: -3.7, default: 0.0, max: 43.0
+- \b "~robot5_y" : \b [double] coordinate-y of robot i min: -1.0, default: 0.0, max: 13.0
+- \b "~robot5_yaw" : \b [double] coordinate-yaw of robot i min: -180.0, default: 0.0, max: 180.0
+- \b "~branch1_x" : \b [double] coordinate-x of branch i min: -3.7, default: 0.0, max: 43.0
+- \b "~branch1_y" : \b [double] coordinate-y of branch i min: -1.0, default: 0.0, max: 13.0
+- \b "~branch2_x" : \b [double] coordinate-x of branch i min: -3.7, default: 0.0, max: 43.0
+- \b "~branch2_y" : \b [double] coordinate-y of branch i min: -1.0, default: 0.0, max: 13.0
+- \b "~branch3_x" : \b [double] coordinate-x of branch i min: -3.7, default: 0.0, max: 43.0
+- \b "~branch3_y" : \b [double] coordinate-y of branch i min: -1.0, default: 0.0, max: 13.0
+- \b "~branch4_x" : \b [double] coordinate-x of branch i min: -3.7, default: 0.0, max: 43.0
+- \b "~branch4_y" : \b [double] coordinate-y of branch i min: -1.0, default: 0.0, max: 13.0
+- \b "~branch5_x" : \b [double] coordinate-x of branch i min: -3.7, default: 0.0, max: 43.0
+- \b "~branch5_y" : \b [double] coordinate-y of branch i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier1_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier1_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier2_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier2_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier3_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier3_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier4_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier4_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier5_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier5_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier6_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier6_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier7_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier7_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier8_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier8_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier9_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier9_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+- \b "~frontier10_x" : \b [double] coordinate-x of frontier i min: -3.7, default: 0.0, max: 43.0
+- \b "~frontier10_y" : \b [double] coordinate-y of frontier i min: -1.0, default: 0.0, max: 13.0
+

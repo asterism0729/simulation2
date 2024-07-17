@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/laser_merge/share/laser_merge/cmake/laser_mergeConfig-version.cmake

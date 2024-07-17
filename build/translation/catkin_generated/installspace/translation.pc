@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/install
+
+Name: translation
+Description: Description of translation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros/catkin_ws/install/lib 
+Requires: 

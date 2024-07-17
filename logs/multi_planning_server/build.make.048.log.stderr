@@ -1,0 +1,7 @@
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/plan.cpp:[m[K In member function ‘[01m[Kbool plan::isTargetInBlackList(const std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > >&, const PoseStamped&)[m[K’:
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/plan.cpp:245:25:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+     if(blackList.size() = 0)
+[01;32m[K                         ^[m[K
+make[2]: *** [CMakeFiles/plan.dir/src/plan.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/plan.dir/all] エラー 2
+make: *** [all] エラー 2

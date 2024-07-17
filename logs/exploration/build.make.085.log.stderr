@@ -1,0 +1,9 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/seamless_hybrid_exploration_loop_closure_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/seamless_hybrid_exploration_loop_closure_node.cpp:50:56:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator&&[m[K’ (operand types are ‘[01m[Kbool[m[K’ and ‘[01m[Kstd_msgs::Bool_<std::allocator<void> >[m[K’)
+         if(!areaDiff.q.callOne(ros::WallDuration(0.5)) && loop.data) break;// ここに切り替え条件入れる
+[01;32m[K                                                        ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/seamless_hybrid_exploration_loop_closure_node.cpp:50:56:[m[K [01;36m[Knote: [m[Kcandidate: operator&&(bool, bool) <built-in>
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/seamless_hybrid_exploration_loop_closure_node.cpp:50:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd_msgs::Bool_<std::allocator<void> >[m[K’ to ‘[01m[Kbool[m[K’
+make[2]: *** [CMakeFiles/seamless_hybrid_exploration_loop_closure.dir/src/seamless_hybrid_exploration_loop_closure_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/seamless_hybrid_exploration_loop_closure.dir/all] エラー 2
+make: *** [all] エラー 2

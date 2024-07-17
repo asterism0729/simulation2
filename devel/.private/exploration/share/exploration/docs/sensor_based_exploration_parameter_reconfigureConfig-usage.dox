@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration" pkg="exploration" type="exploration">
+  <param name="last_goal_effect" type="bool" value="True" />
+  <param name="last_goal_tolerance" type="double" value="1.0" />
+  <param name="canceled_goal_effect" type="bool" value="True" />
+  <param name="canceled_goal_tolerance" type="double" value="0.5" />
+</node>
+\endverbatim
+

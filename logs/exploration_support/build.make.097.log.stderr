@@ -1,0 +1,156 @@
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter_node.cpp:1:0[m[K:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+     typedef ::std_msgs::Bool_<std::allocator<void>> Bool;
+[01;32m[K                         ^[m[K
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:1:0[m[K:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+     typedef ::std_msgs::Bool_<std::allocator<void>> Bool;
+[01;32m[K                         ^[m[K
+make[2]: *** [CMakeFiles/loop_closure_counter.dir/src/loop_closure_counter_node.cpp.o] エラー 1
+make[2]: *** 未完了のジョブを待っています....
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:6:0[m[K:
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:22:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template type
+ struct Bool_
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:48:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ typedef ::std_msgs::Bool_<std::allocator<void> > Bool;
+[01;32m[K                     ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:58:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ std::ostream& operator<<(std::ostream& s, const ::std_msgs::Bool_<ContainerAllocator> & v)
+[01;32m[K                                                             ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:[m[K In function ‘[01m[Kstd::ostream& std_msgs::operator<<(std::ostream&, const std_msgs::Bool_&)[m[K’:
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:60:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ ros::message_operations::Printer< ::std_msgs::Bool_<ContainerAllocator> >::stream(s, "", v);
+[01;32m[K                                               ^[m[K
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:6:0[m[K:
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:[m[K At global scope:
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:82:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct IsFixedSize< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K                                 ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:82:8:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+ struct IsFixedSize< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:82:8:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:87:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct IsFixedSize< ::std_msgs::Bool_<ContainerAllocator> const>
+[01;32m[K                                 ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:87:8:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+ struct IsFixedSize< ::std_msgs::Bool_<ContainerAllocator> const>
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:87:8:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:92:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct IsMessage< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K                               ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:92:8:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+ struct IsMessage< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:92:8:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:97:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct IsMessage< ::std_msgs::Bool_<ContainerAllocator> const>
+[01;32m[K                               ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:97:8:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+ struct IsMessage< ::std_msgs::Bool_<ContainerAllocator> const>
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:97:8:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:102:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct HasHeader< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K                               ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:102:8:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+ struct HasHeader< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:102:8:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:107:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct HasHeader< ::std_msgs::Bool_<ContainerAllocator> const>
+[01;32m[K                               ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:107:8:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+ struct HasHeader< ::std_msgs::Bool_<ContainerAllocator> const>
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:107:8:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:113:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct MD5Sum< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K                            ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:113:8:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+ struct MD5Sum< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:113:8:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:126:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct DataType< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K                              ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:126:8:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+ struct DataType< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:126:8:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:137:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct Definition< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K                                ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:137:8:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+ struct Definition< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:137:8:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:156:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+   template<class ContainerAllocator> struct Serializer< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K                                                                     ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:156:45:[m[K [01;31m[Kerror: [m[Ktemplate parameters not deducible in partial specialization:
+   template<class ContainerAllocator> struct Serializer< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K                                             ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:156:45:[m[K [01;36m[Knote: [m[K        ‘[01m[KContainerAllocator[m[K’
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:175:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+ struct Printer< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:175:8:[m[K [01;31m[Kerror: [m[Kspecialization of ‘[01m[Kros::message_operations::Printer<std_msgs::Bool_>[m[K’ after instantiation
+ struct Printer< ::std_msgs::Bool_<ContainerAllocator> >
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/std_msgs/Bool.h:175:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct ros::message_operations::Printer<std_msgs::Bool_>[m[K’
+In file included from [01m[K/opt/ros/kinetic/include/sensor_msgs/PointCloud.h:16:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/transform_listener.h:35[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:3[m[K:
+[01m[K/opt/ros/kinetic/include/ros/message_operations.h:39:8:[m[K [01;31m[Kerror: [m[Kprevious definition of ‘[01m[Kstruct ros::message_operations::Printer<std_msgs::Bool_>[m[K’
+ struct Printer
+[01;32m[K        ^[m[K
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:8:0[m[K:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/construct.h:42:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template type
+     struct Bool_;
+[01;32m[K            ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/construct.h:43:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Bool_[m[K’ is not a template
+     typedef ::std_msgs::Bool_<std::allocator<void>> Bool;
+[01;32m[K                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:2[m[K:
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = std_msgs::Bool_][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/advertise_options.h:92:39:[m[K   required from ‘[01m[Kvoid ros::AdvertiseOptions::init(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&) [with M = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; ros::SubscriberStatusCallback = boost::function<void(const ros::SingleSubscriberPublisher&)>][m[K’
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:252:7:[m[K   required from ‘[01m[Kros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool) [with M = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/struct.h:61:21:[m[K   required from ‘[01m[KExpLib::Struct::pubStruct<T>::pubStruct(const string&, uint32_t, bool) [with T = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:21:78:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:228:102:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kros::message_traits::MD5Sum<std_msgs::Bool_>[m[K’ used in nested name specifier
+   return MD5Sum<typename boost::remove_reference<typename boost::remove_const<M>::type>::type>::value();
+[01;32m[K                                                                                                      ^[m[K
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kconst char* ros::message_traits::datatype() [with M = std_msgs::Bool_][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/advertise_options.h:93:43:[m[K   required from ‘[01m[Kvoid ros::AdvertiseOptions::init(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&) [with M = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; ros::SubscriberStatusCallback = boost::function<void(const ros::SingleSubscriberPublisher&)>][m[K’
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:252:7:[m[K   required from ‘[01m[Kros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool) [with M = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/struct.h:61:21:[m[K   required from ‘[01m[KExpLib::Struct::pubStruct<T>::pubStruct(const string&, uint32_t, bool) [with T = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:21:78:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:237:104:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kros::message_traits::DataType<std_msgs::Bool_>[m[K’ used in nested name specifier
+   return DataType<typename boost::remove_reference<typename boost::remove_const<M>::type>::type>::value();
+[01;32m[K                                                                                                        ^[m[K
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kconst char* ros::message_traits::definition() [with M = std_msgs::Bool_][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/advertise_options.h:94:55:[m[K   required from ‘[01m[Kvoid ros::AdvertiseOptions::init(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&) [with M = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; ros::SubscriberStatusCallback = boost::function<void(const ros::SingleSubscriberPublisher&)>][m[K’
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:252:7:[m[K   required from ‘[01m[Kros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool) [with M = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/struct.h:61:21:[m[K   required from ‘[01m[KExpLib::Struct::pubStruct<T>::pubStruct(const string&, uint32_t, bool) [with T = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:21:78:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:246:106:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kros::message_traits::Definition<std_msgs::Bool_>[m[K’ used in nested name specifier
+   return Definition<typename boost::remove_reference<typename boost::remove_const<M>::type>::type>::value();
+[01;32m[K                                                                                                          ^[m[K
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kbool ros::message_traits::hasHeader() [with M = std_msgs::Bool_][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/advertise_options.h:95:46:[m[K   required from ‘[01m[Kvoid ros::AdvertiseOptions::init(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&) [with M = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; ros::SubscriberStatusCallback = boost::function<void(const ros::SingleSubscriberPublisher&)>][m[K’
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:252:7:[m[K   required from ‘[01m[Kros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool) [with M = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/struct.h:61:21:[m[K   required from ‘[01m[KExpLib::Struct::pubStruct<T>::pubStruct(const string&, uint32_t, bool) [with T = std_msgs::Bool_; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:21:78:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:354:100:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kros::message_traits::HasHeader<std_msgs::Bool_>[m[K’ used in nested name specifier
+   return HasHeader<typename boost::remove_reference<typename boost::remove_const<M>::type>::type>::value;
+[01;32m[K                                                                                                    ^[m[K
+make[2]: *** [CMakeFiles/loop_closure_counter.dir/src/loop_closure_counter.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/loop_closure_counter.dir/all] エラー 2
+make: *** [all] エラー 2

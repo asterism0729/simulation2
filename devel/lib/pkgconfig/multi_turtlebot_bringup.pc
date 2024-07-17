@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/multi_turtlebot_bringup/lib/pkgconfig/multi_turtlebot_bringup.pc

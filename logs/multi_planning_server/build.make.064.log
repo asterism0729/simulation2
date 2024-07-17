@@ -1,0 +1,6 @@
+[ 50%] Built target Extraction
+[ 50%] Built target costmap_publisher
+[ 50%] Built target check_time_and_area
+[ 66%] Built target plan
+[ 83%] Built target Frontier_Search
+[100%] Built target voronoi_map

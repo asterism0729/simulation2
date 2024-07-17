@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/exploration_msgs/share/roseus/ros/exploration_msgs/msg/AvoidanceStatus.l

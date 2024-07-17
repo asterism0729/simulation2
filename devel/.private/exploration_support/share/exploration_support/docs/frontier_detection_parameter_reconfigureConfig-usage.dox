@@ -1,0 +1,17 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration_support" pkg="exploration_support" type="exploration_support">
+  <param name="cluster_tolerance" type="double" value="0.15" />
+  <param name="min_cluster_size" type="int" value="30" />
+  <param name="max_cluster_size" type="int" value="15000" />
+  <param name="filter_square_diameter" type="double" value="0.75" />
+  <param name="on_map_frontier_detection" type="bool" value="True" />
+  <param name="omf_map_window_x" type="double" value="1.0" />
+  <param name="omf_map_window_y" type="double" value="1.0" />
+  <param name="on_map_frontier_rate" type="double" value="0.5" />
+  <param name="variance_threshold" type="double" value="1.5" />
+  <param name="variance_min_threshold" type="double" value="0.1" />
+  <param name="covariance_threshold" type="double" value="0.7" />
+</node>
+\endverbatim
+

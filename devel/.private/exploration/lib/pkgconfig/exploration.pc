@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel/.private/exploration
+
+Name: exploration
+Description: Description of exploration
+Version: 0.0.0
+Cflags: -I/home/ros/catkin_ws/devel/.private/exploration/include -I/home/ros/catkin_ws/src/multiple_robots_slam/exploration/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure geometry_msgs exploration_msgs exploration_libraly actionlib roscpp kobuki_msgs sensor_msgs move_base_msgs navfn

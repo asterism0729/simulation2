@@ -1,0 +1,27 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration_support" pkg="exploration_support" type="exploration_support">
+  <param name="obstacle_check_angle" type="double" value="0.04" />
+  <param name="obstacle_range_threshold" type="double" value="2.5" />
+  <param name="branch_range_max" type="double" value="6.0" />
+  <param name="branch_range_min" type="double" value="0.3" />
+  <param name="branch_diff_x_min" type="double" value="1.0" />
+  <param name="branch_diff_x_max" type="double" value="10.0" />
+  <param name="branch_diff_y_min" type="double" value="0.0" />
+  <param name="branch_diff_y_max" type="double" value="10.0" />
+  <param name="scan_filter" type="bool" value="False" />
+  <param name="scan_filter_order" type="int" value="3" />
+  <param name="branch_filter" type="bool" value="False" />
+  <param name="branch_filter_order" type="int" value="3" />
+  <param name="branch_filter_tolerance" type="double" value="0.2" />
+  <param name="duplicate_detection" type="bool" value="True" />
+  <param name="duplicate_tolerance" type="double" value="1.5" />
+  <param name="log_current_time" type="double" value="10.0" />
+  <param name="newer_duplication_threshold" type="double" value="100.0" />
+  <param name="on_map_branch_detection" type="bool" value="True" />
+  <param name="omb_map_window_x" type="double" value="1.0" />
+  <param name="omb_map_window_y" type="double" value="1.0" />
+  <param name="on_map_branch_rate" type="double" value="0.5" />
+</node>
+\endverbatim
+

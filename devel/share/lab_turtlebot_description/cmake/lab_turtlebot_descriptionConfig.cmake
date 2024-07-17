@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/lab_turtlebot_description/share/lab_turtlebot_description/cmake/lab_turtlebot_descriptionConfig.cmake

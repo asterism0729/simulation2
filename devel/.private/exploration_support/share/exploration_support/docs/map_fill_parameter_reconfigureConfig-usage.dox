@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration_support" pkg="exploration_support" type="exploration_support">
+  <param name="fill_size_min" type="double" value="5.0" />
+  <param name="fill_size_max" type="double" value="2000.0" />
+</node>
+\endverbatim
+

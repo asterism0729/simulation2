@@ -1,0 +1,13 @@
+[  7%] Built target hybrid_loop_test
+[ 15%] Built target hybrid_bumper_hit
+[ 23%] Built target hybrid_only_new_vector_explore_program
+[ 30%] Built target hybrid_odometry_on_map
+[ 38%] Built target hybrid_odom_marker
+[ 46%] Built target hybrid_new_sensor_based_exploration
+[ 53%] Built target new_hybrid_exploration
+[ 61%] Built target hybrid_odom_support
+[ 69%] Built target data_export
+[ 76%] Built target hybrid_only_new_sensor_based_exploration
+[ 84%] Built target hybrid_new_vector_explore_program
+[ 92%] Built target hybrid_tf_odom2map_support
+[100%] Built target hybrid_tf_odom2map

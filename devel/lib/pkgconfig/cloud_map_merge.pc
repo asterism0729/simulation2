@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/cloud_map_merge/lib/pkgconfig/cloud_map_merge.pc

@@ -1,0 +1,23 @@
+(cl:defpackage exploration_msgs-msg
+  (:use )
+  (:export
+   "<AVOIDANCESTATUS>"
+   "AVOIDANCESTATUS"
+   "<BRANCH>"
+   "BRANCH"
+   "<BRANCHARRAY>"
+   "BRANCHARRAY"
+   "<FRONTIER>"
+   "FRONTIER"
+   "<FRONTIERARRAY>"
+   "FRONTIERARRAY"
+   "<POINTARRAY>"
+   "POINTARRAY"
+   "<POSESTAMPEDARRAY>"
+   "POSESTAMPEDARRAY"
+   "<ROBOTINFO>"
+   "ROBOTINFO"
+   "<ROBOTINFOARRAY>"
+   "ROBOTINFOARRAY"
+  ))
+

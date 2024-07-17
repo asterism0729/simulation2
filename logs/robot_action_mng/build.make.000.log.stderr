@@ -1,0 +1,20 @@
+In file included from [01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/robot_action_mng/src/robot2_action.cpp:1:0[m[K:
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/robot_action_mng/include/robot_action_mng/robot2_action.hpp:33:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+         ros::Rate rate = 10;
+[01;32m[K                          ^[m[K
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/robot_action_mng/include/robot_action_mng/robot2_action.hpp:36:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+         bool wait_flag = false;
+[01;32m[K                          ^[m[K
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/robot_action_mng/include/robot_action_mng/robot2_action.hpp:37:34:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+         bool check_robot_stack = false;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/robot_action_mng/src/robot1_action.cpp:1:0[m[K:
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/robot_action_mng/include/robot_action_mng/robot1_action.hpp:32:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+         ros::Rate rate = 10;
+[01;32m[K                          ^[m[K
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/robot_action_mng/include/robot_action_mng/robot1_action.hpp:35:24:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+         bool wait_flag=false;
+[01;32m[K                        ^[m[K
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/robot_action_mng/include/robot_action_mng/robot1_action.hpp:36:32:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+         bool check_robot_stack=false;
+[01;32m[K                                ^[m[K

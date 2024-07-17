@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/dynamicvoronoi/share/dynamicvoronoi/cmake/dynamicvoronoiConfig-version.cmake

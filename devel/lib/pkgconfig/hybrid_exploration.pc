@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/hybrid_exploration/lib/pkgconfig/hybrid_exploration.pc

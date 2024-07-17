@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration" pkg="exploration" type="exploration">
+  <param name="other_robot_weight" type="double" value="1.0" />
+  <param name="distance_weight" type="double" value="1.0" />
+  <param name="direction_weight" type="double" value="1.0" />
+  <param name="simulate_robot_index" type="int" value="1" />
+</node>
+\endverbatim
+

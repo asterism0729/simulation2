@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel/.private/multiple_robots_slam
+
+Name: multiple_robots_slam
+Description: Description of multiple_robots_slam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros/catkin_ws/devel/.private/multiple_robots_slam/lib 
+Requires: 

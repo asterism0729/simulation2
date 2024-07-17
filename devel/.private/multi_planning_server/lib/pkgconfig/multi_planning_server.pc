@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel/.private/multi_planning_server
+
+Name: multi_planning_server
+Description: Description of multi_planning_server
+Version: 0.0.0
+Cflags: -I/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/include
+Libs: -L/home/ros/catkin_ws/devel/.private/multi_planning_server/lib 
+Requires: roscpp rospy std_msgs

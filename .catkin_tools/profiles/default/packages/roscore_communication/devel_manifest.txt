@@ -1,0 +1,5 @@
+multiple_robots_slam/roscore_communication
+/home/ros/catkin_ws/devel/.private/roscore_communication/cmake.lock /home/ros/catkin_ws/devel/./cmake.lock
+/home/ros/catkin_ws/devel/.private/roscore_communication/share/roscore_communication/cmake/roscore_communicationConfig.cmake /home/ros/catkin_ws/devel/share/roscore_communication/cmake/roscore_communicationConfig.cmake
+/home/ros/catkin_ws/devel/.private/roscore_communication/share/roscore_communication/cmake/roscore_communicationConfig-version.cmake /home/ros/catkin_ws/devel/share/roscore_communication/cmake/roscore_communicationConfig-version.cmake
+/home/ros/catkin_ws/devel/.private/roscore_communication/lib/pkgconfig/roscore_communication.pc /home/ros/catkin_ws/devel/lib/pkgconfig/roscore_communication.pc

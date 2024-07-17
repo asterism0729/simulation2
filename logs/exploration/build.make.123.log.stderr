@@ -1,0 +1,17 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::moveToGoal(geometry_msgs::PointStamped, bool)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:96:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Quaternion<double>::FromTwoVectors(const BasisReturnType, double, double)[m[K’
+     Eigen::Quaterniond q = Eigen::Quaterniond::FromTwoVectors(Eigen::Vector3d::UnitX(),0.0,0.0));
+[01;32m[K                                                                                               ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:42:0[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/convert.h:5[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:3[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:275:21:[m[K [01;36m[Knote: [m[Kcandidate: template<class Derived1, class Derived2> static Eigen::Quaternion<_Scalar, _Options> Eigen::Quaternion<Scalar, Options>::FromTwoVectors(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) [with Derived1 = Derived1; Derived2 = Derived2; _Scalar = double; int _Options = 0]
+   static Quaternion FromTwoVectors(const MatrixBase<Derived1>& a, const MatrixBase<Derived2>& b);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:275:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:96:95:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<U>[m[K’ and ‘[01m[Kdouble[m[K’
+     Eigen::Quaterniond q = Eigen::Quaterniond::FromTwoVectors(Eigen::Vector3d::UnitX(),0.0,0.0));
+[01;32m[K                                                                                               ^[m[K
+make[2]: *** [CMakeFiles/movement.dir/src/movement.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/movement.dir/all] エラー 2
+make: *** [all] エラー 2

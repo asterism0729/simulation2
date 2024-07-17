@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/install
+
+Name: robot_action_mng
+Description: Description of robot_action_mng
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

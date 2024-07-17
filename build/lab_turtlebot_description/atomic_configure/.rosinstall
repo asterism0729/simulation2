@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/catkin_ws/devel/.private/lab_turtlebot_description/setup.sh

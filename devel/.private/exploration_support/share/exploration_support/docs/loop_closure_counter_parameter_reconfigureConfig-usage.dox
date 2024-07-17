@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration_support" pkg="exploration_support" type="exploration_support">
+  <param name="loop_closure_threshold" type="double" value="0.0" />
+</node>
+\endverbatim
+

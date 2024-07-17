@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/exploration_support/lib/python2.7/dist-packages/exploration_support/cfg/frontier_detection_parameter_reconfigureConfig.py

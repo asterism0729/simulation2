@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target Extraction[0m
+[35m[1mScanning dependencies of target plan[0m
+[  8%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_planning_server/lib/multi_planning_server/costmap_publisher[0m
+[ 16%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_planning_server/lib/multi_planning_server/check_time_and_area[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/Extraction.dir/src/Extraction.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/plan.dir/src/plan.cpp.o[0m
+[ 41%] Built target costmap_publisher
+[ 50%] Built target check_time_and_area
+[35m[1mScanning dependencies of target Frontier_Search[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/Frontier_Search.dir/src/Frontier_Search.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_planning_server/lib/multi_planning_server/voronoi_map[0m
+[ 75%] Built target voronoi_map
+[ 83%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_planning_server/lib/multi_planning_server/Extraction[0m
+[ 83%] Built target Extraction
+[ 91%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_planning_server/lib/multi_planning_server/Frontier_Search[0m
+[ 91%] Built target Frontier_Search
+[100%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_planning_server/lib/multi_planning_server/plan[0m
+[100%] Built target plan

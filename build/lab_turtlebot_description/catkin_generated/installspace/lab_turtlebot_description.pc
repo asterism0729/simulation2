@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/install
+
+Name: lab_turtlebot_description
+Description: Description of lab_turtlebot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

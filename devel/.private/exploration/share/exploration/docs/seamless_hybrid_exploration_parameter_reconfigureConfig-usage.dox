@@ -1,0 +1,15 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration" pkg="exploration" type="exploration">
+  <param name="last_goal_effect" type="bool" value="True" />
+  <param name="last_goal_tolerance" type="double" value="1.0" />
+  <param name="canceled_goal_effect" type="bool" value="True" />
+  <param name="canceled_goal_tolerance" type="double" value="0.5" />
+  <param name="distance_weight" type="double" value="2.5" />
+  <param name="direction_weight" type="double" value="1.5" />
+  <param name="other_robot_weight" type="double" value="1.0" />
+  <param name="duplicate_coeff" type="double" value="1.2" />
+  <param name="on_map_coeff" type="double" value="1.1" />
+</node>
+\endverbatim
+

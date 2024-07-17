@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/map_merge/lib/pkgconfig/map_merge.pc

@@ -1,0 +1,7 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::moveToGoal(geometry_msgs::PointStamped, bool)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:99:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw[m[K’ was not declared in this scope
+     if(Yaw -yaw > 0){
+[01;32m[K             ^[m[K
+make[2]: *** [CMakeFiles/movement.dir/src/movement.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/movement.dir/all] エラー 2
+make: *** [all] エラー 2

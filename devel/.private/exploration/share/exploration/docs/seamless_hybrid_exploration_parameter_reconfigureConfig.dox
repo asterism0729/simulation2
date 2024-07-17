@@ -1,0 +1,14 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~last_goal_effect" : \b [bool]  min: False, default: True, max: True
+- \b "~last_goal_tolerance" : \b [double]  min: 0.0, default: 1.0, max: 10.0
+- \b "~canceled_goal_effect" : \b [bool]  min: False, default: True, max: True
+- \b "~canceled_goal_tolerance" : \b [double]  min: 0.0, default: 0.5, max: 10.0
+- \b "~distance_weight" : \b [double]  min: 0.0, default: 2.5, max: 10.0
+- \b "~direction_weight" : \b [double]  min: 0.0, default: 1.5, max: 10.0
+- \b "~other_robot_weight" : \b [double]  min: 0.0, default: 1.0, max: 10.0
+- \b "~duplicate_coeff" : \b [double]  min: 0.0, default: 1.2, max: 10.0
+- \b "~on_map_coeff" : \b [double]  min: 0.0, default: 1.1, max: 10.0
+

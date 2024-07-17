@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/install
+
+Name: laser_merge
+Description: Description of laser_merge
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros/catkin_ws/install/lib 
+Requires: exploration_libraly laser_geometry message_filters pcl_ros roscpp sensor_msgs tf

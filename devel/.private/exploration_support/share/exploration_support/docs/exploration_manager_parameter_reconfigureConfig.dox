@@ -1,0 +1,12 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~end_area" : \b [double]  min: 0.0, default: 267.46, max: 2000.0
+- \b "~end_frontier" : \b [int]  min: 0, default: 0, max: 100
+- \b "~end_time" : \b [double]  min: 0.0, default: 1200.0, max: 36000000.0
+- \b "~end_area_diff" : \b [double]  min: 0.0, default: 5.0, max: 2000.0
+- \b "~end_area_diff_interval" : \b [double]  min: 0.0, default: 120.0, max: 3600.0
+- \b "~end_area_diff_rate" : \b [double]  min: -2.0, default: 0.5, max: 2.0
+- \b "~end_area_diff_averate" : \b [double]  min: -2.0, default: 0.5, max: 2.0
+

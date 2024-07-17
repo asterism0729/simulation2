@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/exploration/share/exploration/cmake/explorationConfig.cmake

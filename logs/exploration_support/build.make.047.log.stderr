@@ -1,0 +1,13 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/poselog_optimizer_node.cpp:[m[K In lambda function:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/poselog_optimizer_node.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ is not captured
+         pub.publish(op);
+[01;32m[K         ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/poselog_optimizer_node.cpp:22:41:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+     sync.registerCallback(boost::bind(+[](const nav_msgs::PathConstPtr& mp,const nav_msgs::PathConstPtr& sp,const double& ot)->void{
+[01;32m[K                                         ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/poselog_optimizer_node.cpp:15:20:[m[K [01;36m[Knote: [m[K‘[01m[Kros::Publisher pub[m[K’ declared here
+     ros::Publisher pub = nh.advertise<nav_msgs::Path>("optimized_poselog",1,true);
+[01;32m[K                    ^[m[K
+make[2]: *** [CMakeFiles/poselog_optimizer.dir/src/poselog_optimizer_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/poselog_optimizer.dir/all] エラー 2
+make: *** [all] エラー 2

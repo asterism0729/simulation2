@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel/.private/simulator_pack
+
+Name: simulator_pack
+Description: Description of simulator_pack
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros/catkin_ws/devel/.private/simulator_pack/lib 
+Requires: 

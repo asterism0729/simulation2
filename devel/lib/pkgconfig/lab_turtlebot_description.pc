@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/lab_turtlebot_description/lib/pkgconfig/lab_turtlebot_description.pc

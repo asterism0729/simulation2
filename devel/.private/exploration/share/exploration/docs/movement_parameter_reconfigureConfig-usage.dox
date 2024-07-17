@@ -1,0 +1,41 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration" pkg="exploration" type="exploration">
+  <param name="forward_velocity" type="double" value="0.2" />
+  <param name="rotation_velocity" type="double" value="0.5" />
+  <param name="curve_gain" type="double" value="2.0" />
+  <param name="use_angle_bias" type="bool" value="False" />
+  <param name="angle_bias" type="double" value="10.0" />
+  <param name="costmap_margin" type="double" value="0.4" />
+  <param name="esc_map_div_x" type="int" value="3" />
+  <param name="esc_map_div_y" type="int" value="3" />
+  <param name="esc_map_width" type="double" value="0.9" />
+  <param name="esc_map_height" type="double" value="0.9" />
+  <param name="rotation_tolerance" type="double" value="0.05" />
+  <param name="goal_reset_rate" type="double" value="1.0" />
+  <param name="path_back_interval" type="int" value="5" />
+  <param name="reset_goal_path_limit" type="int" value="30" />
+  <param name="reset_goal_path_rate" type="double" value="0.5" />
+  <param name="back_velocity" type="double" value="-0.2" />
+  <param name="back_time" type="double" value="1.0" />
+  <param name="road_center_threshold" type="double" value="5.0" />
+  <param name="road_threshold" type="double" value="1.5" />
+  <param name="road_center_gain" type="double" value="1.25" />
+  <param name="forward_angle" type="double" value="0.35" />
+  <param name="vfh_far_range_threshold" type="double" value="4.5" />
+  <param name="vfh_near_range_threshold" type="double" value="1.5" />
+  <param name="vfh_rate_threshold" type="double" value="0.9" />
+  <param name="far_avoidance_gain" type="double" value="2.0" />
+  <param name="near_avoidance_gain" type="double" value="2.5" />
+  <param name="calc_range_cos" type="bool" value="True" />
+  <param name="emergency_threshold" type="double" value="0.1" />
+  <param name="emergency_diff_threshold" type="double" value="0.1" />
+  <param name="emergency_avoidance_gain" type="double" value="3.0" />
+  <param name="approach_wall" type="bool" value="False" />
+  <param name="wall_forward_angle" type="double" value="0.35" />
+  <param name="wall_rate_threshold" type="double" value="0.8" />
+  <param name="wall_distance_upper_threshold" type="double" value="5.0" />
+  <param name="wall_distance_lower_threshold" type="double" value="0.5" />
+</node>
+\endverbatim
+

@@ -1,0 +1,20 @@
+[ 14%] Built target exploration_gencfg
+[ 20%] Built target multi_exploration_simulator_input_support
+[ 26%] Built target rrt_point_publisher
+[35m[1mScanning dependencies of target movement_frontier[0m
+[ 32%] Built target movement
+[ 38%] Built target sbe
+[ 44%] Built target fbe
+[ 50%] Built target sensor_based_exploration
+[ 55%] Built target she
+[ 61%] Built target seamless_hybrid_exploration_loop_closure
+[ 67%] Built target seamless_hybrid_exploration_actively_frontier
+[ 73%] Built target legacy_hybrid_exploration
+[ 82%] Built target multi_exploration_simulator
+[ 88%] Built target seamless_hybrid_exploration
+[ 91%] [32mBuilding CXX object CMakeFiles/movement_frontier.dir/src/movement_frontier.cpp.o[0m
+[ 94%] [32m[1mLinking CXX shared library /home/ros/catkin_ws/devel/.private/exploration/lib/libmovement_frontier.so[0m
+[ 94%] Built target movement_frontier
+[35m[1mScanning dependencies of target frontier_based_exploration[0m
+[ 97%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/exploration/lib/exploration/frontier_based_exploration[0m
+[100%] Built target frontier_based_exploration

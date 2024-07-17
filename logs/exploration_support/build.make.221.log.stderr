@@ -1,0 +1,26 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:[m[K In member function ‘[01m[Kvoid BranchDetection::scanCB(const LaserScanConstPtr&)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:114:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+         }else{
+[01;32m[K          ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:115:185:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+             branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(ss.x[i+1] + 0.6, (ss.y[i+1] + ss.y[i])/2))));
+[01;32m[K                                                                                                                                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/struct.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:3[m[K:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:[m[K At global scope:
+[01m[K/opt/ros/kinetic/include/ros/console.h:393:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+   do \
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:568:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) ROS_LOG_STREAM_COND(true, level, name, args)
+[01;32m[K                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) ROS_LOG_STREAM(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+[01;32m[K                               ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:119:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+     ROS_INFO_STREAM("Branch Found : " << branches.size());
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/branch_detection.dir/src/branch_detection.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/branch_detection.dir/all] エラー 2
+make: *** [all] エラー 2

@@ -1,0 +1,101 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:19:1:[m[K [01;31m[Kerror: [m[K‘[01m[KLoopClosureCounter[m[K’ does not name a type
+ LoopClosureCounter::LoopClosureCounter()
+[01;32m[K ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:29:1:[m[K [01;31m[Kerror: [m[K‘[01m[KLoopClosureCounter[m[K’ does not name a type
+ LoopClosureCounter::~LoopClosureCounter(){
+[01;32m[K ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:33:6:[m[K [01;31m[Kerror: [m[K‘[01m[KLoopClosureCounter[m[K’ has not been declared
+ void LoopClosureCounter::loopDetectionLoop(void){
+[01;32m[K      ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K In function ‘[01m[Kvoid loopDetectionLoop()[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:35:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+     std::thread loopThread([this]{loopDetection();});
+[01;32m[K                             ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K In lambda function:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:35:49:[m[K [01;31m[Kerror: [m[K‘[01m[KloopDetection[m[K’ was not declared in this scope
+     std::thread loopThread([this]{loopDetection();});
+[01;32m[K                                                 ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K At global scope:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:40:6:[m[K [01;31m[Kerror: [m[K‘[01m[KLoopClosureCounter[m[K’ has not been declared
+ void LoopClosureCounter::loopDetection(void){
+[01;32m[K      ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K In function ‘[01m[Kvoid loopDetection()[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:42:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMAP_FRAME_ID[m[K’ was not declared in this scope
+     listener.waitForTransform(MAP_FRAME_ID, ODOM_FRAME_ID, ros::Time(), ros::Duration(1.0));
+[01;32m[K                               ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:42:45:[m[K [01;31m[Kerror: [m[K‘[01m[KODOM_FRAME_ID[m[K’ was not declared in this scope
+     listener.waitForTransform(MAP_FRAME_ID, ODOM_FRAME_ID, ros::Time(), ros::Duration(1.0));
+[01;32m[K                                             ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:48:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPUBLISH_RATE[m[K’ was not declared in this scope
+     ros::Rate rate(PUBLISH_RATE);
+[01;32m[K                    ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:66:29:[m[K [01;31m[Kerror: [m[K‘[01m[KLOOP_CLOSURE_THRESHOLD[m[K’ was not declared in this scope
+             if(accumTrans > LOOP_CLOSURE_THRESHOLD){
+[01;32m[K                             ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+         count->pub.publish(ExCos::msgInt8(loopCount));
+[01;32m[K         ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:72:9:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/5/algorithm:62:0[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:2[m[K:
+[01m[K/usr/include/c++/5/bits/stl_algo.h:3959:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+     count(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+[01;32m[K     ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[KaccumTemp[m[K’ was not declared in this scope
+         accumTemp->pub.publish(ExCos::msgDouble(accumTrans));
+[01;32m[K         ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[KaccumPerm[m[K’ was not declared in this scope
+         accumPerm->pub.publish(ExCos::msgDouble(accumTransPerm));
+[01;32m[K         ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:75:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop[m[K’ was not declared in this scope
+         loop->pub.publish(ExCos::msgBool(loopCount > 10 ? true : false));
+[01;32m[K         ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K At global scope:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:80:6:[m[K [01;31m[Kerror: [m[K‘[01m[KLoopClosureCounter[m[K’ has not been declared
+ void LoopClosureCounter::loadParams(void){
+[01;32m[K      ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K In function ‘[01m[Kvoid loadParams()[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:83:47:[m[K [01;31m[Kerror: [m[K‘[01m[KLOOP_CLOSURE_THRESHOLD[m[K’ was not declared in this scope
+     nh.param<double>("loop_closure_threshold",LOOP_CLOSURE_THRESHOLD,6.0);
+[01;32m[K                                               ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:85:43:[m[K [01;31m[Kerror: [m[K‘[01m[KODOM_FRAME_ID[m[K’ was not declared in this scope
+     nh.param<std::string>("odom_frame_id",ODOM_FRAME_ID,"/robot1/odom");
+[01;32m[K                                           ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:86:42:[m[K [01;31m[Kerror: [m[K‘[01m[KMAP_FRAME_ID[m[K’ was not declared in this scope
+     nh.param<std::string>("map_frame_id",MAP_FRAME_ID,"/robot1/map");
+[01;32m[K                                          ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:87:37:[m[K [01;31m[Kerror: [m[K‘[01m[KPUBLISH_RATE[m[K’ was not declared in this scope
+     nh.param<double>("publish_rate",PUBLISH_RATE,10.0);
+[01;32m[K                                     ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:88:54:[m[K [01;31m[Kerror: [m[K‘[01m[KLOOP_PARAMETER_FILE_PATH[m[K’ was not declared in this scope
+     nh.param<std::string>("loop_parameter_file_path",LOOP_PARAMETER_FILE_PATH,"loop_last_parameters.yaml");
+[01;32m[K                                                      ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:89:45:[m[K [01;31m[Kerror: [m[K‘[01m[KOUTPUT_LOOP_PARAMETERS[m[K’ was not declared in this scope
+     nh.param<bool>("output_loop_parameters",OUTPUT_LOOP_PARAMETERS,true);
+[01;32m[K                                             ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K At global scope:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:92:6:[m[K [01;31m[Kerror: [m[K‘[01m[KLoopClosureCounter[m[K’ has not been declared
+ void LoopClosureCounter::dynamicParamsCB(exploration_support::loop_closure_counter_parameter_reconfigureConfig &cfg, uint32_t level){
+[01;32m[K      ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K In function ‘[01m[Kvoid dynamicParamsCB(exploration_support::loop_closure_counter_parameter_reconfigureConfig&, uint32_t)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLOOP_CLOSURE_THRESHOLD[m[K’ was not declared in this scope
+     LOOP_CLOSURE_THRESHOLD = cfg.loop_closure_threshold;
+[01;32m[K     ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K At global scope:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:96:6:[m[K [01;31m[Kerror: [m[K‘[01m[KLoopClosureCounter[m[K’ has not been declared
+ void LoopClosureCounter::outputParams(void){
+[01;32m[K      ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K In function ‘[01m[Kvoid outputParams()[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:98:23:[m[K [01;31m[Kerror: [m[K‘[01m[KLOOP_PARAMETER_FILE_PATH[m[K’ was not declared in this scope
+     std::ofstream ofs(LOOP_PARAMETER_FILE_PATH);
+[01;32m[K                       ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:106:42:[m[K [01;31m[Kerror: [m[K‘[01m[KLOOP_CLOSURE_THRESHOLD[m[K’ was not declared in this scope
+     ofs << "loop_closure_threshold: " << LOOP_CLOSURE_THRESHOLD << std::endl;
+[01;32m[K                                          ^[m[K
+make[2]: *** [CMakeFiles/loop_closure_counter.dir/src/loop_closure_counter.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/loop_closure_counter.dir/all] エラー 2
+make: *** [all] エラー 2

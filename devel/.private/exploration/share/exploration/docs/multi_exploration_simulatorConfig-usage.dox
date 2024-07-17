@@ -1,0 +1,55 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration" pkg="exploration" type="exploration">
+  <param name="simulate_robot_index" type="int" value="1" />
+  <param name="robot_number" type="int" value="2" />
+  <param name="branch_number" type="int" value="1" />
+  <param name="frontier_number" type="int" value="1" />
+  <param name="robot1_x" type="double" value="0.0" />
+  <param name="robot1_y" type="double" value="0.0" />
+  <param name="robot1_yaw" type="double" value="0.0" />
+  <param name="robot2_x" type="double" value="0.0" />
+  <param name="robot2_y" type="double" value="0.0" />
+  <param name="robot2_yaw" type="double" value="0.0" />
+  <param name="robot3_x" type="double" value="0.0" />
+  <param name="robot3_y" type="double" value="0.0" />
+  <param name="robot3_yaw" type="double" value="0.0" />
+  <param name="robot4_x" type="double" value="0.0" />
+  <param name="robot4_y" type="double" value="0.0" />
+  <param name="robot4_yaw" type="double" value="0.0" />
+  <param name="robot5_x" type="double" value="0.0" />
+  <param name="robot5_y" type="double" value="0.0" />
+  <param name="robot5_yaw" type="double" value="0.0" />
+  <param name="branch1_x" type="double" value="0.0" />
+  <param name="branch1_y" type="double" value="0.0" />
+  <param name="branch2_x" type="double" value="0.0" />
+  <param name="branch2_y" type="double" value="0.0" />
+  <param name="branch3_x" type="double" value="0.0" />
+  <param name="branch3_y" type="double" value="0.0" />
+  <param name="branch4_x" type="double" value="0.0" />
+  <param name="branch4_y" type="double" value="0.0" />
+  <param name="branch5_x" type="double" value="0.0" />
+  <param name="branch5_y" type="double" value="0.0" />
+  <param name="frontier1_x" type="double" value="0.0" />
+  <param name="frontier1_y" type="double" value="0.0" />
+  <param name="frontier2_x" type="double" value="0.0" />
+  <param name="frontier2_y" type="double" value="0.0" />
+  <param name="frontier3_x" type="double" value="0.0" />
+  <param name="frontier3_y" type="double" value="0.0" />
+  <param name="frontier4_x" type="double" value="0.0" />
+  <param name="frontier4_y" type="double" value="0.0" />
+  <param name="frontier5_x" type="double" value="0.0" />
+  <param name="frontier5_y" type="double" value="0.0" />
+  <param name="frontier6_x" type="double" value="0.0" />
+  <param name="frontier6_y" type="double" value="0.0" />
+  <param name="frontier7_x" type="double" value="0.0" />
+  <param name="frontier7_y" type="double" value="0.0" />
+  <param name="frontier8_x" type="double" value="0.0" />
+  <param name="frontier8_y" type="double" value="0.0" />
+  <param name="frontier9_x" type="double" value="0.0" />
+  <param name="frontier9_y" type="double" value="0.0" />
+  <param name="frontier10_x" type="double" value="0.0" />
+  <param name="frontier10_y" type="double" value="0.0" />
+</node>
+\endverbatim
+

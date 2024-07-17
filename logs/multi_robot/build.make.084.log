@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target first_turn_cmd[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/first_turn_cmd.dir/src/first_turn_cmd.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_robot/lib/multi_robot/first_turn_cmd[0m
+[35m[1mScanning dependencies of target robot_moving[0m
+[ 50%] Built target first_turn_cmd
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_moving.dir/src/robot_moving.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_robot/lib/multi_robot/robot_moving[0m
+[100%] Built target robot_moving

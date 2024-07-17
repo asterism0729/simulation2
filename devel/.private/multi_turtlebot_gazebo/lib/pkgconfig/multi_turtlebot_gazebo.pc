@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel/.private/multi_turtlebot_gazebo
+
+Name: multi_turtlebot_gazebo
+Description: Description of multi_turtlebot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros/catkin_ws/devel/.private/multi_turtlebot_gazebo/lib 
+Requires: stereo_msgs roscpp

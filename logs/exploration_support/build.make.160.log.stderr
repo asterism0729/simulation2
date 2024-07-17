@@ -1,0 +1,271 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:[m[K In member function ‘[01m[Kvoid BranchDetection::scanCB(const LaserScanConstPtr&)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:246:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float> >::value_type {aka float}[m[K’)
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                      ^[m[K
+In file included from [01m[K/usr/include/c++/5/deque:64:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/callback_queue.h:49[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/struct.h:5[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:3[m[K:
+[01m[K/usr/include/c++/5/bits/stl_deque.h:372:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Ref, class _Ptr> std::_Deque_iterator<_Tp, _Ref, _Ptr> std::operator+(std::ptrdiff_t, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator+(ptrdiff_t __n, const _Deque_iterator<_Tp, _Ref, _Ptr>& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_deque.h:372:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:175:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KExpLib::Construct::msgPoint(((((double)(ss.ExpLib::Struct::scanStruct::x.std::vector<_Tp, _Alloc>::operator[]<float, std::allocator<float> >(((std::vector<float>::size_type)(i + 1))) - ss.ExpLib::Struct::scanStruct::x.std::vector<_Tp, _Alloc>::operator[]<float, std::allocator<float> >(((std::vector<float>::size_type)i)))) * 5.9999999999999998e-1) + ((double)ss.ExpLib::Struct::scanStruct::x.std::vector<_Tp, _Alloc>::operator[]<float, std::allocator<float> >(((std::vector<float>::size_type)i)))), (((double)(ss.ExpLib::Struct::scanStruct::y.std::vector<_Tp, _Alloc>::operator[]<float, std::allocator<float> >(((std::vector<float>::size_type)(i + 1))) - ss.ExpLib::Struct::scanStruct::y.std::vector<_Tp, _Alloc>::operator[]<float, std::allocator<float> >(((std::vector<float>::size_type)i)))) * 5.9999999999999998e-1), 0.0)[m[K’ (type ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’) to type ‘[01m[Kstd::ptrdiff_t {aka long int}[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                               ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:70:0[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/construct.h:6[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:2[m[K:
+[01m[K/usr/include/c++/5/complex:445:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&)
+     operator+(const complex<_Tp>& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:445:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:70:0[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/construct.h:6[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:2[m[K:
+[01m[K/usr/include/c++/5/complex:344:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> std::complex<_Tp> std::operator+(const _Tp&, const std::complex<_Tp>&)
+     operator+(const _Tp& __x, const complex<_Tp>& __y)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:344:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float> >::value_type {aka float}[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:70:0[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/construct.h:6[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:2[m[K:
+[01m[K/usr/include/c++/5/complex:335:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const _Tp&)
+     operator+(const complex<_Tp>& __x, const _Tp& __y)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:335:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:70:0[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_libraly/include/exploration_libraly/construct.h:6[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:2[m[K:
+[01m[K/usr/include/c++/5/complex:326:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator+(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:326:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/vector:65:0[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:5[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_bvector.h:387:3:[m[K [01;36m[Knote: [m[Kcandidate: std::_Bit_const_iterator std::operator+(std::ptrdiff_t, const std::_Bit_const_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_const_iterator& __x)
+[01;32m[K   ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_bvector.h:387:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ to ‘[01m[Kstd::ptrdiff_t {aka long int}[m[K’
+[01m[K/usr/include/c++/5/bits/stl_bvector.h:297:3:[m[K [01;36m[Knote: [m[Kcandidate: std::_Bit_iterator std::operator+(std::ptrdiff_t, const std::_Bit_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_iterator& __x)
+[01;32m[K   ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_bvector.h:297:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ to ‘[01m[Kstd::ptrdiff_t {aka long int}[m[K’
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4890:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4890:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4884:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4884:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4878:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(_CharT __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4878:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float> >::value_type {aka float}[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4872:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(const _CharT* __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4872:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4860:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4860:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4854:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4854:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4848:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4848:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4836:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4836:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4820:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4820:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:53:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.tcc:1167:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.tcc:1167:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float> >::value_type {aka float}[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:53:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.tcc:1151:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const _CharT* __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.tcc:1151:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/5/array:38[m[K,
+                 from [01m[K/usr/include/c++/5/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/5/functional:55[m[K,
+                 from [01m[K/usr/include/c++/5/memory:79[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:4783:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:4783:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Point {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/5/memory:62[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:1152:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator> std::move_iterator<_Iterator> std::operator+(typename std::move_iterator<_Iterator>::difference_type, const std::move_iterator<_Iterator>&)
+     operator+(typename move_iterator<_Iterator>::difference_type __n,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:1152:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_Iterator>[m[K’ and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float> >::value_type {aka float}[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/5/memory:62[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/branch_detection.h:4[m[K,
+                 from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:334:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)
+     operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:334:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/branch_detection.cpp:112:254:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float> >::value_type {aka float}[m[K’
+         branches.emplace_back(ExCos::msgBranch(ExUtl::coordinateConverter2d<geometry_msgs::Point>(listener, pose_->data.header.frame_id, scan.header.frame_id, ExCos::msgPoint(((ss.x[i+1] - ss.x[i]) * 0.6) + ss.x[i], (ss.y[i+1] - ss.y[i]) * 0.6) + ss.y[i]);
+[01;32m[K                                                                                                                                                                                                                                                              ^[m[K
+make[2]: *** [CMakeFiles/branch_detection.dir/src/branch_detection.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/branch_detection.dir/all] エラー 2
+make: *** [all] エラー 2

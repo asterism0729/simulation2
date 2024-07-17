@@ -1,0 +1,10 @@
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/plan.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/plan.cpp:349:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kscalating[m[K’ was not declared in this scope
+             {scalating to SIGTERM
+[01;32m[K              ^[m[K
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/plan.cpp:386:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/plan.dir/src/plan.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/plan.dir/all] エラー 2
+make: *** [all] エラー 2

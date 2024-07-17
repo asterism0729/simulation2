@@ -1,0 +1,5 @@
+Efficiency_Multi_Robot/translation
+/home/ros/catkin_ws/devel/.private/translation/cmake.lock /home/ros/catkin_ws/devel/./cmake.lock
+/home/ros/catkin_ws/devel/.private/translation/share/translation/cmake/translationConfig-version.cmake /home/ros/catkin_ws/devel/share/translation/cmake/translationConfig-version.cmake
+/home/ros/catkin_ws/devel/.private/translation/share/translation/cmake/translationConfig.cmake /home/ros/catkin_ws/devel/share/translation/cmake/translationConfig.cmake
+/home/ros/catkin_ws/devel/.private/translation/lib/pkgconfig/translation.pc /home/ros/catkin_ws/devel/lib/pkgconfig/translation.pc

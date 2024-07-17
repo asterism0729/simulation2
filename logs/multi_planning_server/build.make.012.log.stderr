@@ -1,0 +1,17 @@
+In file included from [01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/Extraction.cpp:1:0[m[K:
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/include/multi_planning_server/Extraction.hpp:9:41:[m[K [01;31m[Kfatal error: [m[Kexploration_libraly/struct.hpp: そのようなファイルやディレクトリはありません
+compilation terminated.
+make[2]: *** [CMakeFiles/Extraction.dir/src/Extraction.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/Extraction.dir/all] エラー 2
+make[1]: *** 未完了のジョブを待っています....
+In file included from [01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/plan.cpp:1:0[m[K:
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/include/multi_planning_server/plan.hpp:18:41:[m[K [01;31m[Kfatal error: [m[Kexploration_libraly/struct.hpp: そのようなファイルやディレクトリはありません
+compilation terminated.
+make[2]: *** [CMakeFiles/plan.dir/src/plan.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/plan.dir/all] エラー 2
+In file included from [01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/voronoi_map.cpp:1:0[m[K:
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/include/multi_planning_server/voronoi_map.hpp:5:41:[m[K [01;31m[Kfatal error: [m[Kexploration_libraly/struct.hpp: そのようなファイルやディレクトリはありません
+compilation terminated.
+make[2]: *** [CMakeFiles/voronoi_map.dir/src/voronoi_map.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/voronoi_map.dir/all] エラー 2
+make: *** [all] エラー 2

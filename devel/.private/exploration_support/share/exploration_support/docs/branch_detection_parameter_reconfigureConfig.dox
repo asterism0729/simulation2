@@ -1,0 +1,26 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~obstacle_check_angle" : \b [double]  min: 0.0, default: 0.04, max: 1.57
+- \b "~obstacle_range_threshold" : \b [double]  min: 0.0, default: 2.5, max: 10.0
+- \b "~branch_range_max" : \b [double]  min: 0.0, default: 6.0, max: 10.0
+- \b "~branch_range_min" : \b [double]  min: 0.0, default: 0.3, max: 10.0
+- \b "~branch_diff_x_min" : \b [double]  min: 0.0, default: 1.0, max: 10.0
+- \b "~branch_diff_x_max" : \b [double]  min: 0.0, default: 10.0, max: 100.0
+- \b "~branch_diff_y_min" : \b [double]  min: 0.0, default: 0.0, max: 10.0
+- \b "~branch_diff_y_max" : \b [double]  min: 0.0, default: 10.0, max: 10.0
+- \b "~scan_filter" : \b [bool]  min: False, default: False, max: True
+- \b "~scan_filter_order" : \b [int]  min: 1, default: 3, max: 10
+- \b "~branch_filter" : \b [bool]  min: False, default: False, max: True
+- \b "~branch_filter_order" : \b [int]  min: 1, default: 3, max: 10
+- \b "~branch_filter_tolerance" : \b [double]  min: 0.0, default: 0.2, max: 10.0
+- \b "~duplicate_detection" : \b [bool]  min: False, default: True, max: True
+- \b "~duplicate_tolerance" : \b [double]  min: 0.0, default: 1.5, max: 10.0
+- \b "~log_current_time" : \b [double]  min: 0.0, default: 10.0, max: 600.0
+- \b "~newer_duplication_threshold" : \b [double]  min: 0.0, default: 100.0, max: 1000000.0
+- \b "~on_map_branch_detection" : \b [bool]  min: False, default: True, max: True
+- \b "~omb_map_window_x" : \b [double]  min: 0.0, default: 1.0, max: 10.0
+- \b "~omb_map_window_y" : \b [double]  min: 0.0, default: 1.0, max: 10.0
+- \b "~on_map_branch_rate" : \b [double]  min: 0.0, default: 0.5, max: 1.0
+

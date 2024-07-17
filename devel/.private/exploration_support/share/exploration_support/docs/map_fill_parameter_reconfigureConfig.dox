@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~fill_size_min" : \b [double]  min: 0.0, default: 5.0, max: 10000.0
+- \b "~fill_size_max" : \b [double]  min: 0.0, default: 2000.0, max: 10000.0
+

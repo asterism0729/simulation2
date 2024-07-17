@@ -1,0 +1,7 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/poselog_optimizer_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/poselog_optimizer_node.cpp:22:39:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand type is ‘[01m[Kmain(int, char**)::<lambda(const PathConstPtr&, const PathConstPtr&)>[m[K’)
+     sync.registerCallback(boost::bind(+[&](const nav_msgs::PathConstPtr& mp,const nav_msgs::PathConstPtr& sp)->void{
+[01;32m[K                                       ^[m[K
+make[2]: *** [CMakeFiles/poselog_optimizer.dir/src/poselog_optimizer_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/poselog_optimizer.dir/all] エラー 2
+make: *** [all] エラー 2

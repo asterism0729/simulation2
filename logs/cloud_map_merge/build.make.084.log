@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target cloud_map_merge[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/cloud_map_merge.dir/src/cloud_map_merge_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/cloud_map_merge.dir/src/cloud_map_merge.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/cloud_map_merge/lib/cloud_map_merge/cloud_map_merge[0m
+[100%] Built target cloud_map_merge

@@ -1,0 +1,26 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\347[m[K’ in program
+                 目的地を再設定
+[01;32m[K                 ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\233[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\256[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\347[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\232[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\204[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\234[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\260[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\343[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\202[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\222[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\206[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\215[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\350[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\250[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\255[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\256[m[K’ in program
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/movement.cpp:126:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\232[m[K’ in program
+make[2]: *** [CMakeFiles/movement.dir/src/movement.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/movement.dir/all] エラー 2
+make: *** [all] エラー 2

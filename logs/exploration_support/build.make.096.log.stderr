@@ -1,0 +1,33 @@
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter_node.cpp:1:0[m[K:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:42:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+         std::unique_ptr<ExStc::pubStruct<std_msgs::Bool>> loop;
+[01;32m[K                                          ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:42:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         std::unique_ptr<ExStc::pubStruct<std_msgs::Bool>> loop;
+[01;32m[K                                                    ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         std::unique_ptr<ExStc::pubStruct<std_msgs::Bool>> loop;
+[01;32m[K                                                        ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:1:0[m[K:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:42:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+         std::unique_ptr<ExStc::pubStruct<std_msgs::Bool>> loop;
+[01;32m[K                                          ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:42:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         std::unique_ptr<ExStc::pubStruct<std_msgs::Bool>> loop;
+[01;32m[K                                                    ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         std::unique_ptr<ExStc::pubStruct<std_msgs::Bool>> loop;
+[01;32m[K                                                        ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/include/exploration_support/loop_closure_counter.h:52:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+make[2]: *** [CMakeFiles/loop_closure_counter.dir/src/loop_closure_counter_node.cpp.o] エラー 1
+make[2]: *** 未完了のジョブを待っています....
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:[m[K In constructor ‘[01m[KLoopClosureCounter::LoopClosureCounter()[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/loop_closure_counter.cpp:24:141:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KExpLib::Struct::pubStruct<std_msgs::Bool_<std::allocator<void> > >*[m[K’ to ‘[01m[Kint[m[K’ [-fpermissive]
+     ,drs_(new dynamic_reconfigure::Server<exploration_support ::loop_closure_counter_parameter_reconfigureConfig>(ros::NodeHandle("~/loop"))){
+[01;32m[K                                                                                                                                             ^[m[K
+make[2]: *** [CMakeFiles/loop_closure_counter.dir/src/loop_closure_counter.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/loop_closure_counter.dir/all] エラー 2
+make: *** [all] エラー 2

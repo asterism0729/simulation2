@@ -1,0 +1,16 @@
+[ 13%] Built target exploration_support_gencfg
+[ 25%] Built target movebase_canceller
+[ 25%] Built target map_continuity
+[ 33%] Built target visualization
+[ 41%] Built target robot_manager
+[ 47%] Built target bumper_continuity
+[ 52%] Built target poselog_optimizer
+[ 58%] Built target goal_cancel_observer
+[35m[1mScanning dependencies of target branch_detection[0m
+[ 66%] Built target loop_closure_counter
+[ 75%] Built target exploration_manager
+[ 83%] Built target frontier_detection
+[ 86%] [32mBuilding CXX object CMakeFiles/branch_detection.dir/src/branch_detection.cpp.o[0m
+[ 94%] Built target map_fill
+[ 97%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/exploration_support/lib/exploration_support/branch_detection[0m
+[100%] Built target branch_detection

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target plan[0m
+[ 16%] Built target check_time_and_area
+[ 33%] Built target Extraction
+[ 50%] Built target costmap_publisher
+[ 66%] Built target Frontier_Search
+[35m[1mScanning dependencies of target voronoi_map[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/plan.dir/src/plan.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/voronoi_map.dir/src/voronoi_map.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_planning_server/lib/multi_planning_server/voronoi_map[0m
+[ 91%] Built target voronoi_map
+[100%] [32m[1mLinking CXX executable /home/ros/catkin_ws/devel/.private/multi_planning_server/lib/multi_planning_server/plan[0m
+[100%] Built target plan

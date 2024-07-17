@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/CMakeLists.txt:273 (add_executable):
+  Cannot find source file:
+
+    src/branch_detection_ver2.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: branch_detection_ver2
+CMake Error: Cannot determine link language for target "branch_detection_ver2".

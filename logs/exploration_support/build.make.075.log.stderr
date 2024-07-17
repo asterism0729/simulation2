@@ -1,0 +1,22 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:[m[K In member function ‘[01m[Kvoid FrontierDetection::horizonDetection(FrontierDetection::mapStruct&)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:128:64:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(FrontierDetection::horizonDetection(FrontierDetection::mapStruct&)::<lambda(int, int)>) (bool)[m[K’
+             if(isHorizon(map.source[x][y] && map.source[x][y+1])) map.horizon[x][y] = 1;
+[01;32m[K                                                                ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:128:64:[m[K [01;36m[Knote: [m[Kcandidate: bool (*)(int, int) <conversion>
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:128:64:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:108:46:[m[K [01;36m[Knote: [m[Kcandidate: FrontierDetection::horizonDetection(FrontierDetection::mapStruct&)::<lambda(int, int)>
+     auto isHorizon = [](int free, int unknown){
+[01;32m[K                                              ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:108:46:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:129:69:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(FrontierDetection::horizonDetection(FrontierDetection::mapStruct&)::<lambda(int, int)>) (bool)[m[K’
+             else if(isHorizon(map.source[x][y+1] && map.source[x][y])) map.horizon[x][y+1] = 1;
+[01;32m[K                                                                     ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:129:69:[m[K [01;36m[Knote: [m[Kcandidate: bool (*)(int, int) <conversion>
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:129:69:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:108:46:[m[K [01;36m[Knote: [m[Kcandidate: FrontierDetection::horizonDetection(FrontierDetection::mapStruct&)::<lambda(int, int)>
+     auto isHorizon = [](int free, int unknown){
+[01;32m[K                                              ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration_support/src/frontier_detection.cpp:108:46:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+make[2]: *** [CMakeFiles/frontier_detection.dir/src/frontier_detection.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/frontier_detection.dir/all] エラー 2
+make: *** [all] エラー 2

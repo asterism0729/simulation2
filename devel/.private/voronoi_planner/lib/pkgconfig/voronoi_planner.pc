@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel/.private/voronoi_planner
+
+Name: voronoi_planner
+Description: Description of voronoi_planner
+Version: 0.1.0
+Cflags: -I/home/ros/catkin_ws/devel/.private/voronoi_planner/include -I/home/ros/catkin_ws/src/multiple_robots_slam/voronoi_packages/voronoi_planner/include
+Libs: -L/home/ros/catkin_ws/devel/.private/voronoi_planner/lib -lvoronoi_planner
+Requires: costmap_2d dynamic_reconfigure geometry_msgs nav_core nav_msgs pluginlib roscpp tf dynamicvoronoi

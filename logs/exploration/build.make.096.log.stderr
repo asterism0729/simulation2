@@ -1,0 +1,10 @@
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/seamless_hybrid_exploration_actively_frontier_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/seamless_hybrid_exploration_actively_frontier_node.cpp:49:59:[m[K [01;31m[Kerror: [m[K‘[01m[KareaDi[m[K’ was not declared in this scope
+         if(!areaDiff.q.callOne(ros::WallDuration(0.5)) && areaDi
+[01;32m[K                                                           ^[m[K
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/seamless_hybrid_exploration_actively_frontier_node.cpp:50:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kff[m[K’
+  ff.data.data) break;// ここに切り替え条件入れる
+[01;32m[K  ^[m[K
+make[2]: *** [CMakeFiles/seamless_hybrid_exploration_actively_frontier.dir/src/seamless_hybrid_exploration_actively_frontier_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/seamless_hybrid_exploration_actively_frontier.dir/all] エラー 2
+make: *** [all] エラー 2

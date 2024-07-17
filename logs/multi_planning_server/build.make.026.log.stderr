@@ -1,0 +1,10 @@
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/plan.cpp:[m[K In member function ‘[01m[Kvoid plan::robotDataSetter(const FrontierArray&, const PoseStamped&, std::vector<robotData>&)[m[K’:
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/plan.cpp:37:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type {aka const struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kpose[m[K’
+     stampedLocation.pose.position.x=recievedOdometry.pose.pose.position.x;
+[01;32m[K                                                           ^[m[K
+[01m[K/home/ros/catkin_ws/src/Efficiency_Multi_Robot/multi_planning_server/src/plan.cpp:38:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type {aka const struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kpose[m[K’
+     stampedLocation.pose.position.y=recievedOdometry.pose.pose.position.y;
+[01;32m[K                                                           ^[m[K
+make[2]: *** [CMakeFiles/plan.dir/src/plan.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/plan.dir/all] エラー 2
+make: *** [all] エラー 2

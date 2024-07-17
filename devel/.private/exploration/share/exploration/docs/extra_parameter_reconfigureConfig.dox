@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~other_robot_weight" : \b [double] weight of other robot min: 1.0, default: 1.0, max: 10.0
+- \b "~distance_weight" : \b [double] weight of distance min: 1.0, default: 1.0, max: 10.0
+- \b "~direction_weight" : \b [double] weight of direction min: 0.0, default: 1.0, max: 10.0
+- \b "~simulate_robot_index" : \b [int] simulate robot index min: 1, default: 1, max: 5
+

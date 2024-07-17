@@ -1,0 +1,20 @@
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/frontier_based_exploration.cpp:2:0[m[K:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/include/exploration/movement.hpp:815:107:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KdynamicParamCallback[m[K’
+ void Movement::dynamicParamCallback(exploration::movement_parameter_reconfigureConfig &cfg, uint32_t level){
+[01;32m[K                                                                                                           ^[m[K
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/legacy_hybrid_exploration.cpp:3:0[m[K:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/include/exploration/movement.hpp:815:107:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KdynamicParamCallback[m[K’
+ void Movement::dynamicParamCallback(exploration::movement_parameter_reconfigureConfig &cfg, uint32_t level){
+[01;32m[K                                                                                                           ^[m[K
+In file included from [01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/src/seamless_hybrid_exploration.cpp:2:0[m[K:
+[01m[K/home/ros/catkin_ws/src/multiple_robots_slam/exploration/include/exploration/movement.hpp:815:107:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KdynamicParamCallback[m[K’
+ void Movement::dynamicParamCallback(exploration::movement_parameter_reconfigureConfig &cfg, uint32_t level){
+[01;32m[K                                                                                                           ^[m[K
+make[2]: *** [CMakeFiles/frontier_based_exploration.dir/src/frontier_based_exploration.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/frontier_based_exploration.dir/all] エラー 2
+make[1]: *** 未完了のジョブを待っています....
+make[2]: *** [CMakeFiles/legacy_hybrid_exploration.dir/src/legacy_hybrid_exploration.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/legacy_hybrid_exploration.dir/all] エラー 2
+make[2]: *** [CMakeFiles/seamless_hybrid_exploration.dir/src/seamless_hybrid_exploration.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/seamless_hybrid_exploration.dir/all] エラー 2
+make: *** [all] エラー 2

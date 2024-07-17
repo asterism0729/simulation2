@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="exploration_support" pkg="exploration_support" type="exploration_support">
+  <param name="end_area" type="double" value="267.46" />
+  <param name="end_frontier" type="int" value="0" />
+  <param name="end_time" type="double" value="1200.0" />
+  <param name="end_area_diff" type="double" value="5.0" />
+  <param name="end_area_diff_interval" type="double" value="120.0" />
+  <param name="end_area_diff_rate" type="double" value="0.5" />
+  <param name="end_area_diff_averate" type="double" value="0.5" />
+</node>
+\endverbatim
+

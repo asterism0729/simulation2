@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel/.private/exploration_msgs
+
+Name: exploration_msgs
+Description: Description of exploration_msgs
+Version: 0.0.0
+Cflags: -I/home/ros/catkin_ws/devel/.private/exploration_msgs/include
+Libs: -L${prefix}/lib 
+Requires: 
